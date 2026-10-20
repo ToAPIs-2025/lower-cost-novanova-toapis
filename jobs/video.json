@@ -1,0 +1,11 @@
+{
+  "kind": "video",
+  "model": "seedance-2-5",
+  "prompt": "A gentle camera orbit around the unbranded amber glass bottle. The translucent fabric ribbon slowly waves and sunlight creates subtle moving caustics on travertine. Preserve the exact bottle shape. One continuous shot, no speech, no text.",
+  "duration": 4,
+  "resolution": "480p",
+  "aspect_ratio": "16:9",
+  "generate_audio": false,
+  "first_frame_file": "examples/gpt-image-2-vip.png",
+  "run_id": "1020-novanova-seedance-2-5"
+}

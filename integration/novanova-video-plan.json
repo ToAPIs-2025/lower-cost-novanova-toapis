@@ -1,0 +1,8 @@
+{
+  "status": "native_reference_and_status_mapping_pending",
+  "tested_api_job": "jobs/video.json",
+  "required_create_path": "POST /v1/videos/generations",
+  "required_query_path": "GET /v1/videos/generations/{id}",
+  "required_result_path": "result.data[0].url",
+  "gap": "Native {{references}} is an array, not the scalar URL required inside each image_with_roles item. Custom native polling lacks an explicit terminal-status map. Agree on both before enabling; no paste-ready native video configuration is claimed."
+}

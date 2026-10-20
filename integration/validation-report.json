@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-20",
+  "upstream_sha": "65e2566fafcb7d35f4c5e843f2b4ab56814379c1",
+  "api_images": 3,
+  "api_videos": 0,
+  "full_app_ui_verified": false,
+  "source_contract_review": "completed",
+  "java_runtime_tested": false,
+  "video_submission": "unconfirmed_no_task_id"
+}

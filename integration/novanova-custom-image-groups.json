@@ -1,0 +1,53 @@
+{
+  "channelBaseUrl": "http://127.0.0.1:8769/v1",
+  "channelKey": "SET_SEPARATE_BRIDGE_TOKEN_IN_UI",
+  "apiFormat": "custom",
+  "groups": {
+    "gpt-image-2-vip": {
+      "requestPath": "/images/generations",
+      "requestMethod": "POST",
+      "requestModelName": "gpt-image-2-vip",
+      "requestTemplate": "{\"model\": \"{{model}}\", \"prompt\": \"{{prompt}}\", \"size\": \"1536x864\", \"n\": 1}",
+      "aiRequestPrompt": "",
+      "responseExample": "{\"data\": [{\"url\": \"https://files.toapis.com/example.png\"}]}",
+      "resultPath": "data[0].url",
+      "queryPath": "",
+      "queryMethod": "GET",
+      "queryRequestTemplate": "",
+      "aiQueryPrompt": "",
+      "queryResponseExample": "",
+      "queryResultPath": ""
+    },
+    "gpt-image-2": {
+      "requestPath": "/images/generations",
+      "requestMethod": "POST",
+      "requestModelName": "gpt-image-2",
+      "requestTemplate": "{\"model\": \"{{model}}\", \"prompt\": \"{{prompt}}\", \"size\": \"1536x864\", \"n\": 1}",
+      "aiRequestPrompt": "",
+      "responseExample": "{\"data\": [{\"url\": \"https://files.toapis.com/example.png\"}]}",
+      "resultPath": "data[0].url",
+      "queryPath": "",
+      "queryMethod": "GET",
+      "queryRequestTemplate": "",
+      "aiQueryPrompt": "",
+      "queryResponseExample": "",
+      "queryResultPath": ""
+    },
+    "gpt-image-2.5-flare": {
+      "requestPath": "/images/generations",
+      "requestMethod": "POST",
+      "requestModelName": "gpt-image-2.5-flare",
+      "requestTemplate": "{\"model\": \"{{model}}\", \"prompt\": \"{{prompt}}\", \"size\": \"1536x864\", \"n\": 1}",
+      "aiRequestPrompt": "",
+      "responseExample": "{\"data\": [{\"url\": \"https://files.toapis.com/example.png\"}]}",
+      "resultPath": "data[0].url",
+      "queryPath": "",
+      "queryMethod": "GET",
+      "queryRequestTemplate": "",
+      "aiQueryPrompt": "",
+      "queryResponseExample": "",
+      "queryResultPath": ""
+    }
+  },
+  "warning": "Copy group fields into each image model text-to-image group; wrapper is a guide, not a claimed import API. CustomProviderAdapter only polls VIDEO tasks, so async ToAPIs images need sync bridge."
+}
